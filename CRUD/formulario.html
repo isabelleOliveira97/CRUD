@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    
+    <div class="col-md-3 mt-2">
+        <p class="h1 text-light bg-dark rounded">Adicionar Produtos<p>
+    </div>
+
+<form action="Linhas.php" method="post">
+    <div class="col-sm-3">
+            <div class="form-group">
+                <label>Descricao</label>
+                <input type="imput" class="form-control" name="descricao" placeholder="descricao">
+                <label>Estoque</label>
+                <input type="imput" class="form-control" name="estoque" placeholder="valor de estoque">
+                <label>Preco de Custo</label>
+                <input type="imput" class="form-control" name="preco_custo" placeholder="valor de custo">
+                <label>Preco de Vendas</label>
+                <input type="imput" class="form-control" name="preco_venda" placeholder="valor de venda">
+                <label>Codigo de Barras</label>
+                <input type="imput" class="form-control" name="codigo_barras" placeholder="codigo de barras">
+                <label>Origem</label>
+                <input type="imput" class="form-control" name="origem" placeholder="origem">
+            </div>
+
+        <input class="btn btn-secondary" type="submit" value="Enviar">
+   
+
+</form>
+</div>
+
+
+</body>
+</html>
